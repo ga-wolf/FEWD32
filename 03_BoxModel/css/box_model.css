@@ -1,0 +1,61 @@
+* {
+  box-sizing: border-box;
+}
+
+h2,
+h3 {
+  margin: 0;
+  padding: 0;
+  border: 1px solid black;
+}
+
+h1 {
+  background-color: dodgerblue;
+  padding: 20px;
+  border: 5px solid black;
+  margin: 100px 100px 50px 100px;
+}
+
+div {
+  background-color: lemonchiffon;
+  padding: 20px;
+  border: 10px solid black;
+  margin-left: 30px;
+}
+
+div img {
+  width: 200px;
+  height: 200px;
+  border: 10px solid black;
+}
+
+.square {
+  width: 100px;
+  height: 100px;
+  background-color: black;
+
+  padding: 0;
+  border: none;
+}
+
+.secondSquare {
+  width: 100px;
+  height: 100px;
+  background-color: red;
+  box-sizing: border-box;
+
+  padding: 0;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 20px;
+  padding-bottom: 10px;
+  border: 30px solid orange;
+}
+
+.column {
+  width: 50%;
+  height: 200px;
+  background: black;
+  padding: 20px;
+  border: 100px solid black;
+}

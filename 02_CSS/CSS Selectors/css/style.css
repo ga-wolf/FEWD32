@@ -1,0 +1,65 @@
+body {
+  color: hotpink;
+}
+
+h1 {
+  /*color: #ff00ff;*/
+}
+
+img {
+  height: 300px;
+  width: 300px;
+  border: 3px dashed black;
+  border-radius: 50%;
+}
+
+img.bill {
+  border-radius: 0;
+}
+
+img.nick {
+  height: 600px;
+}
+
+.steve {
+  width: 50px;
+  height: 50px;
+}
+
+p {
+  /*color: rgb(255, 0, 0);*/
+}
+
+a {
+  font-size: 25px;
+  color: green;
+  text-decoration: none;
+}
+
+header a {
+  text-decoration: underline;
+  font-size: 14px;
+}
+
+header ul li {
+  text-transform: lowercase;
+}
+
+ol li {
+  font-weight: bold;
+}
+
+#importantLink {
+  font-size: 100px;
+}
+
+img.animate {
+  width: 300px;
+  transition: all 1s;
+  transform: rotate(0deg);
+}
+
+img.animate:hover {
+  width: 500px;
+  transform: rotate(360deg);
+}

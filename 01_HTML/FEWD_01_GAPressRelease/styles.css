@@ -1,0 +1,24 @@
+body {
+  font-family: Verdana;
+}
+
+h1 {
+  font-family: Impact;
+  text-decoration: underline;
+}
+
+h2 {
+  color: blue;
+}
+
+ul {
+  background-color: #ccc;
+}
+
+ul li {
+  font-weight: bold;
+}
+
+ul li:nth-child(8) {
+  color: red;
+}
