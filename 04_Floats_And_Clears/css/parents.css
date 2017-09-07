@@ -1,0 +1,33 @@
+* {
+  box-sizing: border-box;
+}
+
+.parent {
+  border: 3px solid black;
+  background: lightblue;
+  padding: 20px;
+}
+
+.square {
+  float: left;
+  width: 25%;
+  height: 200px;
+  background: darkblue;
+  border: 3px solid black;
+}
+
+.clear {
+  clear: both;
+  /*border: 2px solid red;*/
+}
+
+.overflow {
+  overflow: auto;
+}
+
+.clearfix:after {
+  content: "";
+  display: block;
+  height: 0;
+  clear: both;
+}

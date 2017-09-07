@@ -1,0 +1,51 @@
+* {
+  /*border: 1px solid black;*/
+}
+
+span {
+  background: yellow;
+  padding: 10px;
+}
+
+header {
+  background: dodgerblue;
+  display: none;
+}
+
+h1 {
+  border: 3px solid black;
+  display: block;
+}
+
+nav {
+  border: 3px solid red;
+  display: inline-block;
+}
+
+img {
+  width: 50px;
+  float: left;
+  margin-right: 50px;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+.italic {
+  font-style: italic;
+}
+
+.underline {
+  text-decoration: underline;
+}
+
+article {
+  background-color: tomato;
+  width: 70%;
+}
+
+aside {
+  background-color: limegreen;
+  width: 20%;
+}

@@ -1,0 +1,30 @@
+body {
+  margin: 0;
+}
+
+header {
+  height: 80px;
+  width: 100%;
+  background-color: dodgerblue;
+}
+
+main {
+  float: left;
+  height: 500px;
+  width: 70%;
+  background-color: tomato;
+}
+
+aside {
+  float: right;
+  height: 400px;
+  width: 30%;
+  background-color: limegreen;
+}
+
+footer {
+  clear: both;
+  border: 1px solid black;
+  height: 150px;
+  background-color: dodgerblue;
+}

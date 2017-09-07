@@ -1,0 +1,27 @@
+article {
+  float: left;
+  height: 400px;
+  width: 30%;
+  background: dodgerblue;
+}
+
+main {
+  float: left;
+  height: 500px;
+  width: 40%;
+  background: tomato;
+}
+
+aside {
+  float: right;
+  height: 300px;
+  width: 30%;
+  background: limegreen;
+}
+
+footer {
+  clear: both;
+  height: 100px;
+  width: 100%;
+  background: black;
+}
