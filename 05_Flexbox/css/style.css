@@ -1,0 +1,39 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+}
+
+.container {
+  border: 10px solid mistyrose;
+}
+
+.box {
+  color: ghostwhite;
+  background: dodgerblue;
+  font-size: 50px;
+  text-align: center;
+}
+
+.box:nth-of-type(even) {
+  background: tomato;
+}
+
+/* FLEXBOX STUFF */
+
+.container {
+  height: 100vh;
+  display: flex;
+  flex-direction: row;
+}
+
+.box1 {
+  /* flex: FLEX GROW | FLEX SHRINK | FLEX BASIS; */
+  flex: 1 1 75%;
+}
+
+.box2 {
+  flex: 1 1 25%;
+}
