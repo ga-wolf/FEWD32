@@ -1,0 +1,102 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  background: ghostwhite;
+  font-family: monospace;
+  line-height: 150%;
+  font-size: 16px;
+  padding-top: 80px;
+}
+
+nav {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background: #16161d;
+  height: 80px;
+  display: flex;
+  text-align: center;
+  line-height: 80px;
+}
+
+nav a {
+  flex: 1 1 25%;
+  text-decoration: none;
+  color: ghostwhite;
+  background: #16161d;
+  transition: all 0.3s;
+}
+
+/* Pseudo-selector */
+nav a:hover {
+  color: #16161d;
+  background: ghostwhite;
+}
+
+.landingPage {
+  height: 100vh;
+  background: url(https://unsplash.it/1920/1200);
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+button {
+  font-family: monospace;
+  padding: 5px 10px;
+  background: ghostwhite;
+  border: 3px solid dodgerblue;
+  border-radius: 3px;
+  font-size: 25px;
+  transition: all 0.3s;
+  cursor: pointer;
+}
+
+button:hover {
+  background: dodgerblue;
+  color: ghostwhite;
+}
+
+body > div {
+  padding: 50px;
+}
+
+body > div h3 {
+  font-size: 30px;
+  text-decoration: underline;
+  text-decoration-color: hotpink;
+}
+
+.features {
+  background: dodgerblue;
+  color: ghostwhite;
+}
+
+footer {
+  padding: 100px 50px;
+  background: #16161d;
+  color: ghostwhite;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+footer > div {
+  /* flex: flex-grow flex-shrink flex-basis; */
+  flex: 0 0 30%;
+}
+
+/* If the browser is less than 800px wide, apply these styles */
+@media (max-width: 800px) {
+  footer > div {
+    flex: 0 0 100%;
+  }
+}
