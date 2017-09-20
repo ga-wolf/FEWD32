@@ -1,0 +1,47 @@
+* {
+  box-sizing: border-box;
+}
+
+header,
+main,
+aside,
+footer {
+  min-height: 100px;
+  border: 3px solid black;
+}
+
+header {
+  background: #e06666;
+}
+
+main {
+  background: #6d9eeb;
+  width: 70%;
+  min-height: 400px;
+  float: left;
+}
+
+aside {
+  background: #8e7cc3;
+  width: 30%;
+  min-height: 300px;
+  float: right;
+}
+
+footer {
+  background: #ffe599;
+  clear: both;
+}
+
+/*
+.clear {
+  clear: both;
+}
+*/
+
+@media (max-width: 760px) {
+  main,
+  aside {
+    width: 100%;
+  }
+}

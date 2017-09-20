@@ -1,0 +1,71 @@
+* {
+  box-sizing: border-box;
+}
+
+/*img {
+  width: 80%;
+  height: auto;
+  max-width: 500px;
+  min-width: 200px;
+}*/
+
+img {
+  width: 100%;
+  max-width: 500px;
+  margin: 0 auto;
+  display: block;
+  height: auto;
+}
+
+.container {
+  width: 80%;
+  border: 1px solid gainsboro;
+  margin: 0 auto;
+}
+
+.columns {
+  background-color: dodgerblue;
+  padding: 10px 20px;
+  display: flex;
+  justify-content: space-between;
+}
+
+/* D.R.Y - Don't Repeat Yourself */
+
+.half {
+  min-height: 200px;
+  flex: 1 1 49%;
+  background-color: ghostwhite;
+}
+
+body {
+  background-color: tomato;
+  transition: background-color 0.3s;
+}
+
+/* If the browser is under 800px wide, the background should be green */
+
+/* browser width > 500px and browser width < 800px */
+@media (min-width: 500px) and (max-width: 800px) {
+  body {
+    background-color: limegreen;
+  }
+
+  .tablet-hide {
+    display: none;
+  }
+}
+
+/* If the browser is under 500px wide, the background should be rebeccapurple */
+
+@media (max-width: 500px) {
+  body {
+    background-color: rebeccapurple;
+  }
+
+  .mobile-hide {
+    display: none;
+  }
+}
+
+/* .tablet-hide... Use this to hide the h1 on the page on a tablet */
