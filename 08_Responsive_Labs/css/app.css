@@ -1,0 +1,154 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Cardo", serif;
+  margin: 0;
+  padding-top: 80px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+button {
+  font-family: "Montserrat", Helvetica, sans-serif;
+}
+
+button {
+  background: ghostwhite;
+  border: 3px solid dodgerblue;
+  border-radius: 3px;
+  padding: 5px 10px;
+}
+
+button:hover {
+  background: dodgerblue;
+  color: ghostwhite;
+}
+
+header {
+  background: #16161d;
+  color: ghostwhite;
+  position: fixed;
+  top: 0;
+  left: 0;
+  min-height: 80px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+}
+
+header a {
+  color: inherit;
+  font-size: 15px;
+  padding-left: 10px;
+}
+
+.landingPage {
+  min-height: calc(100vh - 80px);
+  background-image: url(https://unsplash.it/1920/1200);
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+}
+
+section {
+  padding: 50px 0;
+}
+
+section h3 {
+  font-size: 25px;
+  text-decoration: underline;
+}
+
+section:nth-of-type(odd) {
+  background-color: gray;
+}
+
+.container {
+  width: 85%;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.employees {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.employee {
+  text-align: center;
+  flex: 0 0 30%;
+}
+
+.employee img {
+  max-width: 80%;
+  border-radius: 50%;
+}
+
+.features {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.feature {
+  flex: 0 0 48%;
+  padding: 10px;
+  background: ghostwhite;
+  border-radius: 5px;
+  margin-bottom: 30px;
+}
+
+footer {
+  background-color: #16161d;
+  color: ghostwhite;
+  /* Variadic Attributes */
+  padding: 50px 0;
+}
+
+.footerSections {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.footerSections > div {
+  flex: 0 0 48%;
+}
+
+/* The maximum width to apply these styles is 800px */
+@media (max-width: 800px) {
+  .employee {
+    flex: 0 0 100%;
+  }
+}
+
+@media (max-width: 600px) {
+  .feature {
+    flex: 0 0 100%;
+  }
+
+  .footerSections > div {
+    flex: 0 0 100%;
+  }
+}
+
+/*
+  If the browser goes under 600px wide
+
+  Each feature should take up the full width and be it's own line
+
+  If you get that working... The footer sections should sit side by side, then on small screens - they should be 100% wide
+*/

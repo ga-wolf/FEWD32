@@ -1,0 +1,46 @@
+html {
+  font-size: 10px;
+}
+
+h1 {
+  font-size: 2rem;
+}
+
+.twice {
+  font-size: 2rem;
+}
+
+h2 {
+  font-size: 3rem;
+}
+
+.em {
+  font-size: 16px;
+}
+
+img {
+  width: 10rem;
+}
+
+p {
+  font-size: 1.5rem;
+}
+
+@media (min-width: 400px) {
+  html {
+    font-size: 12px;
+  }
+}
+
+/* The minimum width to apply these styles is 600px */
+@media (min-width: 600px) {
+  html {
+    font-size: 20px;
+  }
+}
+
+@media (min-width: 800px) {
+  html {
+    font-size: 100px;
+  }
+}
