@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="css/style.css">
+  <title>Our Fancy Website</title>
+</head>
+<body>
+
+  <div class="contactUs">
+
+    <form action="https://formspree.io/wolf@ga.co" method="POST">
+      <input type="hidden" name="_next" value="/thanks.html">
+
+      <div>
+        <label for="firstName">First Name:</label>
+        <input type="text" id="firstName" name="first-name" placeholder="First Name:" required="true">
+      </div>
+
+      <div>
+        <label for="lastName">Last Name:</label>
+        <input type="text" id="lastName" name="last-name" placeholder="Last Name:">
+      </div>
+
+      <div>
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" placeholder="Email:" required="true">
+      </div>
+
+      <div>
+        <label for="message">Message:</label>
+        <textarea name="message" id="message" cols="30" rows="10"></textarea>
+      </div>
+
+      <!-- <select>
+        <option value="groucho">Groucho Marx</option>
+        <option value="harpo">Harpo Marx</option>
+        <option value="zeppo">Zeppo Marx</option>
+      </select> -->
+
+      <input type="submit" value="Contact Us!">
+
+    </form>
+
+  </div>
+
+</body>
+</html>
