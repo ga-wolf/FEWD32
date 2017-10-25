@@ -1,0 +1,62 @@
+body {
+  margin: 0;
+}
+
+/* NAV */
+
+nav {
+  position: fixed;
+  height: 80px;
+  width: 100%;
+  background: #16161d; /* EIGENGRAU! */
+  z-index: 1274981274981274981274981274;
+  display: flex;
+  text-align: center;
+}
+
+nav a {
+  line-height: 80px;
+  flex: 1 1 25%;
+  color: ghostwhite;
+  text-decoration: none;
+  font-size: 30px;
+}
+
+nav a:hover {
+  background: ghostwhite;
+  color: #16161d;
+}
+
+div {
+  outline: none;
+}
+
+/* OWL CAROUSEL */
+
+.owl-item {
+  height: 100vh;
+  background: chartreuse;
+}
+
+.owl-item div {
+  height: 100vh;
+  width: 100vw;
+  background-position: center;
+  background-size: cover;
+}
+
+.slide1 {
+  background-image: url(http://unsplash.it/1920/1200);
+}
+
+.slide2 {
+  background-image: url(http://unsplash.it/1921/1200);
+}
+
+.slide3 {
+  background-image: url(http://unsplash.it/1922/1200);
+}
+
+.slide4 {
+  background-image: url(http://unsplash.it/1923/1200);
+}
