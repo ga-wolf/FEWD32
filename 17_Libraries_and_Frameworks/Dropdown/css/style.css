@@ -1,6 +1,7 @@
 /* Global */
 
 * {
+  -webkit-box-sizing: border-box;
   box-sizing: border-box;
 }
 
@@ -25,6 +26,7 @@ nav {
   left: 0;
   text-align: center;
   /* X OFFSET | Y OFFSET | BLUR | SPREAD | COLOR */
+  -webkit-box-shadow: 0 0 20px 0 black;
   box-shadow: 0 0 20px 0 black;
 }
 
@@ -56,6 +58,7 @@ ul li a {
 }
 
 ul ul li {
+  -webkit-box-shadow: 0 0 20px 0 black;
   box-shadow: 0 0 20px 0 black;
 }
 
