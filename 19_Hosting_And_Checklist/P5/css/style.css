@@ -1,0 +1,9 @@
+body {
+  margin: 0;
+}
+
+input {
+  padding: 10px 20px;
+  margin: 10px 0 0 10px;
+  position: absolute;
+}
